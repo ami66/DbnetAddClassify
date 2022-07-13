@@ -69,6 +69,9 @@ dbnet文字检测，添加文本框分类
 
 ***\*六. 测试\****
 
+身份证要素提取模型下地址获取方式：
+关注公众号 datanlp 然后回复关键词 db分类 即可获取。
+
 修改det_infer.py的模型路径、模型文件路径、和图片路径
 
 ![3](https://user-images.githubusercontent.com/24771833/178769560-c8db79fb-0c06-43c2-981b-77092e1b1026.jpg)
