@@ -71,6 +71,11 @@ dbnet文字检测，添加文本框分类
 
 修改det_infer.py的模型路径、模型文件路径、和图片路径
 
+![3](https://user-images.githubusercontent.com/24771833/178769560-c8db79fb-0c06-43c2-981b-77092e1b1026.jpg)
+
+![7](https://user-images.githubusercontent.com/24771833/178769763-5c7b19c3-ef0e-4c87-a232-2f02f76a7d88.jpg)
+
+![9](https://user-images.githubusercontent.com/24771833/178769838-f6e61135-90f6-4f61-a8f2-e062c2572da6.jpg)
 
 
 ## 参考
@@ -88,3 +93,4 @@ https://github.com/BADBADBADBOY/pytorchOCR
 ##### 公众号ID：datanlp
 
 扫下方二维码关注公众号
+![机器学习算法AI大数据技术_datanlp](https://user-images.githubusercontent.com/24771833/178769996-f7dd23e9-9997-4380-9a7f-3a0cd16e6fee.jpg)
