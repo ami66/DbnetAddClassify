@@ -92,5 +92,7 @@ https://github.com/BADBADBADBOY/pytorchOCR
 
 ##### 公众号ID：datanlp
 
-扫下方二维码关注公众号
+扫二维码关注公众号
+
+
 ![机器学习算法AI大数据技术_datanlp](https://user-images.githubusercontent.com/24771833/178769996-f7dd23e9-9997-4380-9a7f-3a0cd16e6fee.jpg)
