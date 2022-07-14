@@ -88,6 +88,9 @@ dbnet文字检测，添加文本框分类
 
 修改det_infer.py的模型路径、模型文件路径、和图片路径
 
+
+dbnet不仅检测出文本行，还自动给文本行分类标签，一个框一个标签，可以按标签提取目标文本行。
+
 ![3](https://user-images.githubusercontent.com/24771833/178769560-c8db79fb-0c06-43c2-981b-77092e1b1026.jpg)
 
 ![7](https://user-images.githubusercontent.com/24771833/178769763-5c7b19c3-ef0e-4c87-a232-2f02f76a7d88.jpg)
