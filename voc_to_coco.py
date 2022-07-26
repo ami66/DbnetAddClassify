@@ -56,17 +56,21 @@ def save_file(img_jpg_file_name, size, img_box):
     file_path = open(save_file_name, "a+")
     for box in img_box:
 
-        for i,class_name in enumerate(class_names):
-            if box[0] == class_name:
-                cls_num = i
-            else:
-                continue
+        #for i,class_name in enumerate(class_names):
+            #if box[0] == class_name:
+                #cls_num = i
+            #else:
+                #continue
 
-        new_box = cord_converter(size, box[1:])
-
+        #new_box = cord_converter(size, box[1:])
+        new_box =box[1:]
+        x1 = str(new_box[0])
+        y1 = str(new_box[1])
+        x2 = str(new_box[2])
+        y2 = str(new_box[3])
 
         #file_path.write(f"{cls_num} {new_box[0]} {new_box[1]} {new_box[2]} {new_box[3]}\n")
-        file_path.write(str(cls_num)+' '+str(new_box[0])+' '+str(new_box[1])+' '+str(new_box[2])+' '+str(new_box[3])+'\n')
+        file_path.write(x1+','+y1+','+x2+','+y1+','+x2+','+y2+','+x1+','+y2+','+str(box[0])+'\n')
 
     file_path.flush()
     file_path.close()
